@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Política de Privacidade - Tower Bounce</title>
+<style>
+:root {
+  --bg: #f8f9fb;
+  --card: #ffffff;
+  --accent: #ff4b5c;
+  --text: #333;
+  --radius: 16px;
+  --shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+  background: var(--accent);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  border-radius: 0 0 var(--radius) var(--radius);
+  box-shadow: var(--shadow);
+}
+nav h1 {
+  font-size: 1.5rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN */
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* CARD */
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  margin-bottom: 1.5rem;
+  overflow: hidden;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+}
+.card-header {
+  padding: 1.2rem;
+  background: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card-header h2 {
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+.icon {
+  transition: transform 0.3s ease;
+}
+.card-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.4s ease;
+  background: #fafafa;
+  padding: 0 1.2rem;
+}
+.card-content.open {
+  padding: 1.2rem;
+  max-height: 500px;
+}
+.card-content p {
+  margin-bottom: 0.8rem;
+}
+
+/* FOOTER */
+footer {
+  background: var(--accent);
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  border-radius: var(--radius) var(--radius) 0 0;
+  box-shadow: var(--shadow);
+}
+footer p {
+  font-size: 0.9rem;
+}
+
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  main {
+    margin-top: 1rem;
+  }
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <h1>Tower Bounce</h1>
+  <a href="#politica">Política de Privacidade</a>
+</nav>
+
+<main id="politica">
+  <div class="card">
+    <div class="card-header">
+      <h2>1. Desenvolvedor</h2>
+      <span class="icon">▼</span>
+    </div>
+    <div class="card-content">
+      <p>O jogo <strong>Tower Bounce</strong> foi desenvolvido por <strong>GatakiOfc</strong>.</p>
+      <p>Nosso compromisso é fornecer uma experiência divertida e segura para todos os jogadores.</p>
+    </div>
+  </div>
+<div class="card">
+  <div class="card-header">
+    <h2>2. Coleta de Dados</h2>
+    <span class="icon">▼</span>
+  </div>
+  <div class="card-content">
+    <p>O aplicativo <strong>Tower Bounce</strong> é completamente <strong>offline</strong> e não solicita, coleta ou armazena nenhum tipo de dado pessoal dos usuários na sua versão atual.</p>
+
+    <p>O jogador pode utilizar o jogo livremente sem criar conta, informar dados pessoais ou conceder permissões especiais.</p>
+
+    <p>No entanto, futuras atualizações do jogo poderão incluir recursos que exijam a coleta limitada de informações, sempre com foco em melhorar a experiência do usuário. Caso isso ocorra, esta Política de Privacidade será atualizada para refletir claramente quais dados passam a ser coletados e como serão utilizados.</p>
+  </div>
+</div>
+
+  <div class="card">
+    <div class="card-header">
+      <h2>3. Publicidade e AdMob</h2>
+      <span class="icon">▼</span>
+    </div>
+    <div class="card-content">
+      <p>O aplicativo exibe anúncios fornecidos pela plataforma <strong>Google AdMob</strong>. Esses anúncios podem coletar <strong>dados não pessoais</strong>, como identificadores de dispositivo, para oferecer publicidade relevante e limitar repetições.</p>
+      <p>Esses dados são gerenciados unicamente pelo Google, conforme sua própria política de privacidade.</p>
+<p>Para mais informações, consulte:<br>
+        <a href="https://policies.google.com/privacy" target="_blank">Política de Privacidade do Google</a>
+      </p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <h2>4. Segurança</h2>
+      <span class="icon">▼</span>
+    </div>
+<div class="card-content">
+  <p>Atualmente, o jogo <strong>Tower Bounce</strong> não coleta, armazena ou compartilha dados pessoais dos usuários. Não há envio de informações para servidores externos e nenhuma identificação pessoal é registrada.</p>
+
+  <p>No entanto, futuras atualizações do jogo poderão incluir funcionalidades que exijam a coleta limitada de dados, sempre com o objetivo de melhorar a experiência do usuário. Caso isso aconteça, esta política de privacidade será atualizada para refletir claramente quais informações são coletadas e como são utilizadas.</p>
+</div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <h2>5. Alterações na Política</h2>
+      <span class="icon">▼</span>
+    </div>
+    <div class="card-content">
+      <p>Esta política de privacidade pode ser atualizada periodicamente. Recomendamos que o usuário consulte esta página regularmente para se manter informado sobre possíveis mudanças.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-header">
+      <h2>6. Contato</h2>
+      <span class="icon">▼</span>
+    </div>
+    <div class="card-content">
+      <p>Em caso de dúvidas ou solicitações relacionadas à privacidade, entre em contato através do e-mail:<br>
+      <strong>gatakiofc@gmail.com</strong></p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>© 2025 Tower Bounce. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+document.querySelectorAll('.card-header').forEach(header => {
+  header.addEventListener('click', () => {
+    const content = header.nextElementSibling;
+    const icon = header.querySelector('.icon');
+    const isOpen = content.classList.contains('open');
+
+    document.querySelectorAll('.card-content').forEach(c => c.classList.remove('open'));
+    document.querySelectorAll('.icon').forEach(i => i.style.transform = "rotate(0deg)");
+
+    if (!isOpen) {
+      content.classList.add('open');
+      icon.style.transform = "rotate(180deg)";
+    }
+  });
+});
+</script>
+
+</body>
+</html>
